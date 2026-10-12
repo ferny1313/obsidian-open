@@ -1,0 +1,9 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Open in Obsidian</title>
+<p>Opening Obsidian…</p>
+<script>
+  const f = decodeURIComponent(location.hash.slice(1));
+  if (f) location.href = 'obsidian://open?vault=Obsidian%20Vault&file=' + encodeURIComponent(f);
+</script>
